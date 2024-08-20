@@ -28,6 +28,6 @@ services:
         value: Asia/Baghdad 
       - key: DATABASE_URL
         fromDatabase:
-          name: JokerData
+          name: Data
           property: connectionString   
     autoDeploy: false
